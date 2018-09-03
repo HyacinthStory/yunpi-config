@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yunpi.iml" filepath="$PROJECT_DIR$/yunpi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-base/yunpi-base.iml" filepath="$PROJECT_DIR$/yunpi-base/yunpi-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-common/yunpi-common.iml" filepath="$PROJECT_DIR$/yunpi-common/yunpi-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-config/yunpi-config.iml" filepath="$PROJECT_DIR$/yunpi-config/yunpi-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-dclean/yunpi-dclean.iml" filepath="$PROJECT_DIR$/yunpi-dclean/yunpi-dclean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-dcollect/yunpi-dcollect.iml" filepath="$PROJECT_DIR$/yunpi-dcollect/yunpi-dcollect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-dfusion/yunpi-dfusion.iml" filepath="$PROJECT_DIR$/yunpi-dfusion/yunpi-dfusion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-eureka/yunpi-eureka.iml" filepath="$PROJECT_DIR$/yunpi-eureka/yunpi-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-gateway/yunpi-gateway.iml" filepath="$PROJECT_DIR$/yunpi-gateway/yunpi-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-monitor/yunpi-monitor.iml" filepath="$PROJECT_DIR$/yunpi-monitor/yunpi-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-portal/yunpi-portal.iml" filepath="$PROJECT_DIR$/yunpi-portal/yunpi-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunpi-utils/yunpi-utils.iml" filepath="$PROJECT_DIR$/yunpi-utils/yunpi-utils.iml" />
+    </modules>
+  </component>
+</project>

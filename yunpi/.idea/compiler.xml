@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="conf-server (1)" />
+        <module name="eureka-server (1)" />
+        <module name="yunpi-base" />
+        <module name="yunpi-common" />
+        <module name="yunpi-config" />
+        <module name="yunpi-dclean" />
+        <module name="yunpi-dcollect" />
+        <module name="yunpi-dfusion" />
+        <module name="yunpi-eureka" />
+        <module name="yunpi-gateway" />
+        <module name="yunpi-monitor" />
+        <module name="yunpi-portal" />
+        <module name="yunpi-protal" />
+        <module name="yunpi-utils" />
+        <module name="zuul-server (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
+      <module name="admin-server (1)" target="1.8" />
+      <module name="conf-server" target="1.8" />
+      <module name="conf-server (1)" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server (1)" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="sleuth-server" target="1.8" />
+      <module name="turbine-server" target="1.8" />
+      <module name="yunpi" target="1.8" />
+      <module name="yunpi-base" target="1.8" />
+      <module name="yunpi-common" target="1.8" />
+      <module name="yunpi-config" target="1.8" />
+      <module name="yunpi-dclean" target="1.8" />
+      <module name="yunpi-dcollect" target="1.8" />
+      <module name="yunpi-dfusion" target="1.8" />
+      <module name="yunpi-discovery" target="1.8" />
+      <module name="yunpi-eureka" target="1.8" />
+      <module name="yunpi-gateway" target="1.8" />
+      <module name="yunpi-monitor" target="1.8" />
+      <module name="yunpi-portal" target="1.8" />
+      <module name="yunpi-protal" target="1.6" />
+      <module name="yunpi-server" target="1.8" />
+      <module name="yunpi-utils" target="1.8" />
+      <module name="zuul-server" target="1.8" />
+      <module name="zuul-server (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-dclean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-dcollect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-dfusion" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunpi-utils" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        service-id: yunpi-config #配置服务实例名称
+        enabled: true #开启配置服务发现
+      label: master
+      uri: http://localhost:8081/
+      profile: ${spring.profiles.active}
+      username: admin
+      password: admin
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@127.0.0.1:8080/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}

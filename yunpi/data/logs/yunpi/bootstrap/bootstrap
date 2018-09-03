@@ -1,0 +1,241 @@
+2018-09-04 00:01:28,560 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57abad67: startup date [Tue Sep 04 00:01:28 CST 2018]; root of context hierarchy
+2018-09-04 00:01:29,040 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 00:01:29,108 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17ccc144] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:03:15,810 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57abad67: startup date [Tue Sep 04 00:03:15 CST 2018]; root of context hierarchy
+2018-09-04 00:03:16,248 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 00:03:16,319 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2a8466bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:06:46,344 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3724af13: startup date [Tue Sep 04 00:06:46 CST 2018]; root of context hierarchy
+2018-09-04 00:06:46,787 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 00:06:46,867 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9fbf01d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:07:00,928 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b52c0d6: startup date [Tue Sep 04 00:07:00 CST 2018]; root of context hierarchy
+2018-09-04 00:07:02,094 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 00:07:02,396 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$b384d40e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:07:02,435 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d9db3ee6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:07:05,485 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 171] Cannot determine local hostname
+2018-09-04 00:07:05,755 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 71] Setting initial instance status as: STARTING
+2018-09-04 00:07:05,950 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 347] Initializing Eureka in region us-east-1
+2018-09-04 00:07:06,707 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2018-09-04 00:07:06,708 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2018-09-04 00:07:07,015 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2018-09-04 00:07:07,016 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2018-09-04 00:07:07,532 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2018-09-04 00:07:08,478 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 929] Disable delta property : false
+2018-09-04 00:07:08,479 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 930] Single vip registry refresh property : null
+2018-09-04 00:07:08,480 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 931] Force full registry fetch : false
+2018-09-04 00:07:08,481 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 932] Application is null : false
+2018-09-04 00:07:08,483 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 933] Registered Applications size is zero : true
+2018-09-04 00:07:08,484 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 935] Application version is -1: true
+2018-09-04 00:07:08,485 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1018] Getting all instance registry info from the eureka server
+2018-09-04 00:07:08,760 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1027] The response status is 200
+2018-09-04 00:07:08,762 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1300] Not registering with Eureka server per configuration
+2018-09-04 00:07:08,768 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 434] Discovery Client initialized at timestamp 1535990828767 with initial instances count: 0
+2018-09-04 00:07:15,144 [INFO] [main] o.s.b.a.logging.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java : 101] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-09-04 00:07:15,177 [ERROR] [main] org.springframework.boot.SpringApplication [SpringApplication.java : 771] Application startup failed
+java.lang.IllegalStateException: No instances found of configserver (yunpi-config)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider.getConfigServerInstance(ConfigServerInstanceProvider.java:25)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider$$FastClassBySpringCGLIB$$facbf882.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:164)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:118)
+	at org.springframework.retry.annotation.AnnotationAwareRetryOperationsInterceptor.invoke(AnnotationAwareRetryOperationsInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider$$EnhancerBySpringCGLIB$$1177070a.getConfigServerInstance(<generated>)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.refresh(DiscoveryClientConfigServiceBootstrapConfiguration.java:80)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.startup(DiscoveryClientConfigServiceBootstrapConfiguration.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:256)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:187)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:102)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:68)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.hyacinth.yunpi.gateway.YunpiGatewayApplication.main(YunpiGatewayApplication.java:23)
+2018-09-04 00:07:15,197 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 984] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b52c0d6: startup date [Tue Sep 04 00:07:00 CST 2018]; root of context hierarchy
+2018-09-04 00:07:15,203 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 861] Shutting down DiscoveryClient ...
+2018-09-04 00:07:15,230 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 882] Completed shut down of DiscoveryClient
+2018-09-04 00:07:15,259 [ERROR] [main] org.springframework.boot.SpringApplication [SpringApplication.java : 771] Application startup failed
+java.lang.IllegalStateException: No instances found of configserver (yunpi-config)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider.getConfigServerInstance(ConfigServerInstanceProvider.java:25)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider$$FastClassBySpringCGLIB$$facbf882.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:164)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:118)
+	at org.springframework.retry.annotation.AnnotationAwareRetryOperationsInterceptor.invoke(AnnotationAwareRetryOperationsInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider$$EnhancerBySpringCGLIB$$1177070a.getConfigServerInstance(<generated>)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.refresh(DiscoveryClientConfigServiceBootstrapConfiguration.java:80)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.startup(DiscoveryClientConfigServiceBootstrapConfiguration.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:256)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:187)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:102)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:68)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.hyacinth.yunpi.gateway.YunpiGatewayApplication.main(YunpiGatewayApplication.java:23)
+2018-09-04 00:07:26,732 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@54dcfa5a: startup date [Tue Sep 04 00:07:26 CST 2018]; root of context hierarchy
+2018-09-04 00:07:27,649 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 00:07:27,736 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$940b84e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:07:29,543 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 171] Cannot determine local hostname
+2018-09-04 00:07:29,694 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 71] Setting initial instance status as: STARTING
+2018-09-04 00:07:29,838 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 347] Initializing Eureka in region us-east-1
+2018-09-04 00:07:30,542 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2018-09-04 00:07:30,542 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2018-09-04 00:07:30,701 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2018-09-04 00:07:30,702 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2018-09-04 00:07:31,050 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2018-09-04 00:07:31,374 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 929] Disable delta property : false
+2018-09-04 00:07:31,377 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 930] Single vip registry refresh property : null
+2018-09-04 00:07:31,377 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 931] Force full registry fetch : false
+2018-09-04 00:07:31,377 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 932] Application is null : false
+2018-09-04 00:07:31,378 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 933] Registered Applications size is zero : true
+2018-09-04 00:07:31,379 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 935] Application version is -1: true
+2018-09-04 00:07:31,380 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1018] Getting all instance registry info from the eureka server
+2018-09-04 00:07:31,773 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1027] The response status is 200
+2018-09-04 00:07:31,776 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1300] Not registering with Eureka server per configuration
+2018-09-04 00:07:31,781 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 434] Discovery Client initialized at timestamp 1535990851780 with initial instances count: 1
+2018-09-04 00:07:51,913 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b52c0d6: startup date [Tue Sep 04 00:07:51 CST 2018]; root of context hierarchy
+2018-09-04 00:07:53,240 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 00:07:53,410 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$615413a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:07:53,437 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$87aa7e7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 00:07:55,633 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 171] Cannot determine local hostname
+2018-09-04 00:07:55,790 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 71] Setting initial instance status as: STARTING
+2018-09-04 00:07:55,910 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 347] Initializing Eureka in region us-east-1
+2018-09-04 00:07:56,604 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2018-09-04 00:07:56,604 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2018-09-04 00:07:56,928 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2018-09-04 00:07:56,932 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2018-09-04 00:07:57,537 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2018-09-04 00:07:58,001 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 929] Disable delta property : false
+2018-09-04 00:07:58,003 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 930] Single vip registry refresh property : null
+2018-09-04 00:07:58,004 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 931] Force full registry fetch : false
+2018-09-04 00:07:58,004 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 932] Application is null : false
+2018-09-04 00:07:58,004 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 933] Registered Applications size is zero : true
+2018-09-04 00:07:58,004 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 935] Application version is -1: true
+2018-09-04 00:07:58,004 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1018] Getting all instance registry info from the eureka server
+2018-09-04 00:07:58,439 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1027] The response status is 200
+2018-09-04 00:07:58,446 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1300] Not registering with Eureka server per configuration
+2018-09-04 00:07:58,458 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 434] Discovery Client initialized at timestamp 1535990878457 with initial instances count: 1
+2018-09-04 01:22:49,424 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@14dda234: startup date [Tue Sep 04 01:22:49 CST 2018]; root of context hierarchy
+2018-09-04 01:22:50,581 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 01:22:50,674 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d2cc5c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 01:22:52,410 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 171] Cannot determine local hostname
+2018-09-04 01:22:52,589 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 71] Setting initial instance status as: STARTING
+2018-09-04 01:22:52,810 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 347] Initializing Eureka in region us-east-1
+2018-09-04 01:22:54,178 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2018-09-04 01:22:54,194 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2018-09-04 01:22:54,732 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2018-09-04 01:22:54,733 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2018-09-04 01:22:55,301 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2018-09-04 01:22:55,798 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 929] Disable delta property : false
+2018-09-04 01:22:55,799 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 930] Single vip registry refresh property : null
+2018-09-04 01:22:55,799 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 931] Force full registry fetch : false
+2018-09-04 01:22:55,799 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 932] Application is null : false
+2018-09-04 01:22:55,800 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 933] Registered Applications size is zero : true
+2018-09-04 01:22:55,801 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 935] Application version is -1: true
+2018-09-04 01:22:55,804 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1018] Getting all instance registry info from the eureka server
+2018-09-04 01:22:56,235 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1027] The response status is 200
+2018-09-04 01:22:56,239 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1300] Not registering with Eureka server per configuration
+2018-09-04 01:22:56,243 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 434] Discovery Client initialized at timestamp 1535995376243 with initial instances count: 3
+2018-09-04 01:23:48,366 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@14dda234: startup date [Tue Sep 04 01:23:48 CST 2018]; root of context hierarchy
+2018-09-04 01:23:49,274 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 01:23:49,325 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fb7a75bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 01:23:50,979 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 171] Cannot determine local hostname
+2018-09-04 01:23:51,131 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 71] Setting initial instance status as: STARTING
+2018-09-04 01:23:51,268 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 347] Initializing Eureka in region us-east-1
+2018-09-04 01:23:51,923 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2018-09-04 01:23:51,923 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2018-09-04 01:23:52,064 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2018-09-04 01:23:52,065 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2018-09-04 01:23:52,384 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2018-09-04 01:23:52,630 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 929] Disable delta property : false
+2018-09-04 01:23:52,630 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 930] Single vip registry refresh property : null
+2018-09-04 01:23:52,631 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 931] Force full registry fetch : false
+2018-09-04 01:23:52,631 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 932] Application is null : false
+2018-09-04 01:23:52,631 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 933] Registered Applications size is zero : true
+2018-09-04 01:23:52,632 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 935] Application version is -1: true
+2018-09-04 01:23:52,632 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1018] Getting all instance registry info from the eureka server
+2018-09-04 01:23:52,810 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1027] The response status is 200
+2018-09-04 01:23:52,813 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1300] Not registering with Eureka server per configuration
+2018-09-04 01:23:52,817 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 434] Discovery Client initialized at timestamp 1535995432817 with initial instances count: 3
+2018-09-04 01:24:40,710 [INFO] [main] o.s.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java : 583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@14dda234: startup date [Tue Sep 04 01:24:40 CST 2018]; root of context hierarchy
+2018-09-04 01:24:41,434 [INFO] [main] o.s.b.f.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java : 155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 01:24:41,487 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 327] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f7bb68d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 01:24:43,353 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 171] Cannot determine local hostname
+2018-09-04 01:24:43,557 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 71] Setting initial instance status as: STARTING
+2018-09-04 01:24:43,705 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 347] Initializing Eureka in region us-east-1
+2018-09-04 01:24:44,128 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2018-09-04 01:24:44,129 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2018-09-04 01:24:44,279 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2018-09-04 01:24:44,280 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2018-09-04 01:24:44,570 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2018-09-04 01:24:45,008 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 929] Disable delta property : false
+2018-09-04 01:24:45,008 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 930] Single vip registry refresh property : null
+2018-09-04 01:24:45,008 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 931] Force full registry fetch : false
+2018-09-04 01:24:45,009 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 932] Application is null : false
+2018-09-04 01:24:45,009 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 933] Registered Applications size is zero : true
+2018-09-04 01:24:45,009 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 935] Application version is -1: true
+2018-09-04 01:24:45,010 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1018] Getting all instance registry info from the eureka server
+2018-09-04 01:24:45,226 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1027] The response status is 200
+2018-09-04 01:24:45,230 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1300] Not registering with Eureka server per configuration
+2018-09-04 01:24:45,241 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 434] Discovery Client initialized at timestamp 1535995485241 with initial instances count: 3

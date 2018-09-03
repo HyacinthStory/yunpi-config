@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: @pom.artifactId@
+
+security: #开启基本安全验证
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root

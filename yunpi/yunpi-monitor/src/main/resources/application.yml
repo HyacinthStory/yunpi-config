@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: @pom.artifactId@
+
+#关闭安全访问
+management:
+  security:
+    enabled: false
+
+#关闭安全检查
+endpoints:
+  health:
+    sensitive: false

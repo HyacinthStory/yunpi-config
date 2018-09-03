@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: @pom.artifactId@
+#  boot:
+#    admin:
+#      username: admin
+#      password: admin
+
+security:
+  user:
+    name: admin
+    password: admin
+
+info:
+  软件著作权: 云派大数据服务平台
+  著作登记号: 2018SR320076
+  关于我们: http://hyacinth.com
