@@ -1,0 +1,53 @@
+server:
+  port: 8090
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: @pom.artifactId@
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    sql-script-encoding: UTF-8
+    url: jdbc:mysql://192.168.8.100:3306/yunpi-dev?useUnicode=TRUE&characterEncoding=UTF-8&autoReconnect=true
+    username: root
+    password: 6012328
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      default-auto-commit: true
+      filters: stat,wall,log4j # \u914D\u7F6E\u76D1\u63A7\u7EDF\u8BA1\u62E6\u622A\u7684filters\uFF0C\u53BB\u6389\u540E\u76D1\u63A7\u754C\u9762sql\u65E0\u6CD5\u7EDF\u8BA1\uFF0C'wall'\u7528\u4E8E\u9632\u706B\u5899
+      max-active: 5
+      initial-size: 1
+      max-wait: 60000
+      min-idle: 1
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-open-prepared-statements: 20
+      filter:
+        stat:
+          log-slow-sql: true
+  redis:
+    host: 47.93.115.174
+    password: yinfeng2012
+    port: 6379
+    timeout: 30000
+
+#logging.level.org.springframework.security: DEBUG
+#logging.level.org.springframework: DEBUG
+
+security:
+  oauth2:
+    resource:
+      filter-order: 3
